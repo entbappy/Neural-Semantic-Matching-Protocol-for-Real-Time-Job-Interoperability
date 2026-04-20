@@ -1,0 +1,10 @@
+2026-04-18 15:59:59,332 | DEBUG | utility_logger | Debugging values: {'step': 1, 'status': 'starting'}
+2026-04-18 15:59:59,332 | INFO | utility_logger | Application example started.
+2026-04-18 15:59:59,333 | WARNING | utility_logger | This is a warning example for the logging utility.
+2026-04-18 15:59:59,333 | ERROR | utility_logger | An exception occurred while dividing by zero.
+Traceback (most recent call last):
+  File "D:\Bappy\Coding\Course Recordings\GenAI\all-utils\utilities\logging_example.py", line 40, in run_logging_demo
+    value = 10 / 0
+            ~~~^~~
+ZeroDivisionError: division by zero
+2026-04-18 15:59:59,333 | INFO | utility_logger | Logging demo finished.

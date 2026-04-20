@@ -1,0 +1,28 @@
+1. Learning Outcome:
+   - Master the integration of Large Language Models (LLMs) into real-world applications using OpenAI's GPT-4o.
+   - Learn to build interactive, data-driven web applications using Streamlit.
+   - Understand the "Neural-Semantic Matching" protocol for bridging unstructured user data (resumes) with structured external data (job listings).
+   - Gain experience in unstructured data processing (PDF Parsing) with PyMuPDF.
+   - Implement real-time data interoperability using Apify to scrape and integrate live job market data (LinkedIn, Naukri).
+   - Learn prompt engineering techniques for profile summarization, gap analysis, and keyword extraction.
+
+2. What you will build:
+   - A "Neural-Semantic Job Interoperability System" that intelligently matches candidates to jobs.
+   - A Resume Parsing Module that extracts and standardizes text from PDF documents.
+   - An AI Intelligence Layer that performs Profile Summarization, Skill Gap Analysis, and Future Career Roadmap generation.
+   - A Semantic Search Engine that translates user profiles into optimized search keywords.
+   - A Real-Time Job Aggregator that fetches and displays live job listings from LinkedIn and Naukri based on semantic matching.
+
+3. Prerequisite:
+   - Proficiency in Python programming.
+   - Basic familiarity with REST APIs and JSON data handling.
+   - Understanding of basic AI/LLM concepts (prompts, tokens, context).
+   - OpenAI API Key and Apify API Token.
+
+4. Technologies:
+   - Programming Language: Python
+   - Web Framework: Streamlit
+   - AI/LLM: OpenAI GPT-4o
+   - Data Processing: PyMuPDF (fitz)
+   - Data Interoperability/Scraping: Apify Client (LinkedIn & Naukri Actors)
+   - Environment Management: python-dotenv
